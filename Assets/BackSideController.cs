@@ -25,7 +25,7 @@ public class BackSideController : MonoBehaviour
 
         if(other.gameObject.tag == "CarTag" || other.gameObject.tag == "TrafficConeTag" || other.gameObject.tag == "CoinTag")
         {
-            Debug.Log("削除："+other.gameObject.tag);
+            Debug.Log("削除TAG："+other.gameObject.tag);
             Destroy(other.gameObject);
         }
     }
